@@ -4,6 +4,10 @@ html, body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
 }
 
 /* MOBILE background */
@@ -12,8 +16,104 @@ html {
     background-size: 100%;
 }
 
+h1, h2, h3, h4, h5 {
+    color: hsl(223, 47%, 23%);
+}
 
+.flex-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
 
+.card {
+    width: 88%;
+    height: 80%;
+    background: #fff;
+    border-radius: 25px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 90%;
+}
+
+.card-header {
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.card-header img {
+    width: 100%;
+}
+
+.card-content {
+    padding: 0% 10%;
+    line-height: 1.5;
+}
+
+.card-content h2 {
+    font-weight: 900;
+    margin: 20px 0px 20px 0px
+}
+
+.card-plan {
+    background: hsl(225, 100%, 98%);
+    margin: 30px 0;
+    padding:7%;
+    border-radius: 10px;
+
+    box-sizing: border-box;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card-plan-type {
+    flex-grow: 2;
+    
+}
+
+.card-plan-type h4{
+    font-weight: 700;
+    margin: 0;
+}
+
+.card-plan div {
+    padding: 7px;
+}
+
+.card-plan div a:hover {
+    text-decoration: none;
+    color: hsl(245, 75%, 52%)
+}
+
+.card-link{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: 700;
+    color:hsl(224, 23%, 55%);
+}
+
+.card-button {
+    border-radius: 10px;
+    background: hsl(245, 75%, 52%);
+    color: #fff;
+    
+}
+
+.light-shadow {
+    -webkit-box-shadow: 0px 8px 27px -18px rgba(66, 68, 90, 1);
+-moz-box-shadow: 0px 8px 27px -18px rgba(66, 68, 90, 1);
+box-shadow: 0px 8px 27px -18px rgba(66, 68, 90, 1);
+}
 
 /* attribution at the bottom */
 .attribution { 
@@ -26,12 +126,19 @@ html {
     }
 
 
-/* 768 px in width and above - Not mobile screens */
-@media screen and (min-width: 768px) {
+
+/* 588 px in width and above - Not mobile screens */
+@media screen and (min-width: 588px) {
     
     html {
         background: #e0e8ff url("images/pattern-background-desktop.svg") no-repeat top;
         background-size: 100%;
 }
+
+.card {
+    font-size: 100%;
+    width: 500px;
+}
+
 
 }
