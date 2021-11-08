@@ -10,7 +10,7 @@ html, body {
     font-size: 16px;
 }
 
-/* MOBILE background */
+/* MOBILE background - desktop at the bottom */
 html {
     background: #e0e8ff url("images/pattern-background-mobile.svg") no-repeat top;
     background-size: 100%;
@@ -30,6 +30,8 @@ h1, h2, h3, h4, h5 {
    
 }
 
+
+/* main part - card related */
 .card {
     width: 88%;
    
@@ -129,6 +131,7 @@ h1, h2, h3, h4, h5 {
     opacity: 1;
 }
 
+/* universal shadow */
 .light-shadow {
     -webkit-box-shadow: 0px 20px 39px -15px rgba(66, 68, 90, 1);
 -moz-box-shadow: 0px 20px 39px -15px rgba(66, 68, 90, 1);
@@ -155,10 +158,10 @@ box-shadow: 0px 20px 39px -15px rgba(66, 68, 90, 1);
         background-size: 100%;
 }
 
-.card {
-    font-size: 100%;
-    width: 500px;
-}
+    .card {
+        font-size: 100%;
+        width: 500px;
+    }
 
 
 }
