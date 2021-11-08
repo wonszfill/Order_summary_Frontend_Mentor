@@ -26,17 +26,19 @@ h1, h2, h3, h4, h5 {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-direction: column;
    
 }
 
 .card {
     width: 88%;
-    height: 80%;
+   
     background: #fff;
     border-radius: 25px;
     overflow: hidden;
     text-align: center;
     font-size: 90%;
+    padding-bottom: 20px;
 }
 
 .card-header {
@@ -87,9 +89,13 @@ h1, h2, h3, h4, h5 {
     padding: 7px;
 }
 
+.card-plan div a {
+    transition: opacity .15s ease-in-out;
+}
+
 .card-plan div a:hover {
     text-decoration: none;
-    color: hsl(245, 75%, 52%)
+    opacity: 0.75;
 }
 
 .card-link{
@@ -97,22 +103,36 @@ h1, h2, h3, h4, h5 {
     width: 100%;
     box-sizing: border-box;
     padding: 15px;
+    margin:10px 0;
     text-decoration: none;
     font-weight: 700;
     color:hsl(224, 23%, 55%);
+    transition: opacity .15s ease-in-out;
 }
 
 .card-button {
     border-radius: 10px;
     background: hsl(245, 75%, 52%);
     color: #fff;
-    
+}
+
+.card-button:hover {
+    opacity: 0.75;
+}
+
+.card-button-non-pref {
+    opacity: 0.75;
+    color:hsl(223, 47%, 23%);
+}
+
+.card-button-non-pref:hover {
+    opacity: 1;
 }
 
 .light-shadow {
-    -webkit-box-shadow: 0px 8px 27px -18px rgba(66, 68, 90, 1);
--moz-box-shadow: 0px 8px 27px -18px rgba(66, 68, 90, 1);
-box-shadow: 0px 8px 27px -18px rgba(66, 68, 90, 1);
+    -webkit-box-shadow: 0px 20px 39px -15px rgba(66, 68, 90, 1);
+-moz-box-shadow: 0px 20px 39px -15px rgba(66, 68, 90, 1);
+box-shadow: 0px 20px 39px -15px rgba(66, 68, 90, 1);
 }
 
 /* attribution at the bottom */
