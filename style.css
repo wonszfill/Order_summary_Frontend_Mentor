@@ -34,7 +34,6 @@ h1, h2, h3, h4, h5 {
 /* main part - card related */
 .card {
     width: 88%;
-   
     background: #fff;
     border-radius: 25px;
     overflow: hidden;
@@ -147,7 +146,6 @@ box-shadow: 0px 20px 39px -15px rgba(66, 68, 90, 1);
 .attribution a {
     color: hsl(228, 45%, 44%); 
     }
-
 
 
 /* 588 px in width and above - Not mobile screens */

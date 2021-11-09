@@ -14,8 +14,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -30,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/wonszfill/Order_summary_Frontend_Mentor)
+- Solution URL: [Github repo](https://github.com/wonszfill/Order_summary_Frontend_Mentor)
 
 ## My process
 
@@ -51,7 +49,7 @@ I had to recall basics of transitions and css inheritance, i.e. :
 }
 ```
 
-
+## Author
 
 - Website - [Przemek Wojszwiłło](https://github.com/wonszfill)
 - Frontend Mentor - [@wonszfill](https://www.frontendmentor.io/profile/wonszfill)
